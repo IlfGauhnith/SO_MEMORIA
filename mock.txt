@@ -1,0 +1,15 @@
+ls, 1, 2
+apache,2,2
+chrome,3,4
+git,4,3
+ea,5,6
+steam,6,8
+COM,7,5
+host,8,8
+crashpad,9,5
+drive,10,6
+led,11,6
+msi,12,12
+keer,13,8
+exm, 14, 12
+opn, 15,4
