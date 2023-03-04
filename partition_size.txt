@@ -1,0 +1,5 @@
+# Tamanho das partições em bytes.
+# Preencher o tamanho de cada partição separada por vírgulas.
+#
+6, 4, 2, 8
+#4, 2, 4, 3, 6
