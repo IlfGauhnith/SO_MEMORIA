@@ -5,7 +5,7 @@ from input_handler import InputHandler
 from model.memory_partition import Partition
 from model.process import Process
 
-next_fit_last_index = 0
+next_fit_last_index = -1
 
 
 class AllocationAlgorithmEnum (Enum):
