@@ -7,11 +7,13 @@ from model.process import Process
 
 next_fit_last_index = 0
 
+
 class AllocationAlgorithmEnum (Enum):
     FIRST_FIT = 1
     NEXT_FIT = 2
     BEST_FIT = 3
     WORST_FIT = 4
+
 
 def print_memory_array(memory_array):
     rep = '['
@@ -29,7 +31,7 @@ def print_memory_array(memory_array):
 def read_partition_mock():
     partitions = []
 
-    with open('../partition_size.txt') as file:
+    with open('partition_size.txt') as file:
 
         lines = file.read().splitlines()
 
@@ -47,7 +49,7 @@ def read_partition_mock():
 def read_processes_mock():
     processes = []
 
-    with open('../mock.txt') as file:
+    with open('mock.txt') as file:
         lines = file.read().splitlines()
 
         for line in lines:
@@ -57,7 +59,7 @@ def read_processes_mock():
             id = data[1]
             size = int(data[2])
 
-            processes.append(Process(id, size, name))
+            processes.append(Process(name, id, size))
 
     return processes
 
